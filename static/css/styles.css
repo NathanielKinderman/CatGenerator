@@ -1,5 +1,5 @@
 .container-1{
-    border: 1px solid red;
+    border: 1px solid black;
     width: 75%;
     margin: 0 auto;
     text-align: center;
@@ -8,9 +8,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    border: 1px solid blue
-}
-.flex-box-container-1 img{
     border: 1px solid black;
-    margin:10px;
+}
+.flex-box-container-1 img{       
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
 }
